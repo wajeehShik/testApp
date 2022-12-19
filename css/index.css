@@ -1,0 +1,273 @@
+/* mobile-user */
+.mobile-user{
+    display: none !important;
+    display: flex;
+    margin-top:30px;
+margin-bottom: 30px;
+justify-content:center;
+column-gap: 30px;
+    
+}
+.mobile-user figure img {
+    width: 121px;
+    border:20px solid #263788;
+    outline:20px solid #9CA3C8
+}
+
+
+.mobile-user .socile-icon{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-user .socile-icon a{
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+}
+.mobile-user .info{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-user .info span{
+    background-color: #263788;
+    color:#fff;
+    width: 150px;
+    padding: 10px;
+    text-align:center;
+    border-radius: 20px;
+    font-size: 17px;
+
+}
+
+.mobile-user .info p{
+    background-color: #9CA3C8;
+    color:white;
+    width: 150px;
+    padding: 20px;
+    /* height: 70px; */
+    border-radius: 17px;
+}
+
+
+/* mobile-user */
+/* start header section */
+header{
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    background-color: #263788;
+    border-bottom-left-radius: 31px;
+border-bottom-right-radius: 31px;
+}
+h1{
+    font-family: 'beINNormal';
+    font-size: 55px;
+    color:#fff;
+}
+/* end header section */
+/* start bar section */
+body{
+    position: relative;
+}
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:400px;
+    height:100%;
+    background: #F1F7FF;
+    z-index: -1;
+  }
+  /* end bar section */
+  /*start theme_1 section*/
+.theme_1{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.theme_1  section{
+    position: relative;
+    display: flex;
+    column-gap: 54px;
+    background-color: #fff;
+    border-radius: 46px;
+
+    box-shadow: 0px 3px 6px #0000004d;
+    width: 1025px;
+    height: 455px;
+    margin: 90px auto 90px auto;
+}
+
+.theme_1  section figure img{
+    width: 400px;
+    height: 100%;
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 42px;
+}
+
+.theme_1  section .colors{
+    position: absolute;
+    display: flex;
+    left: 36px;
+    top: 139px;
+    width: 48px;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    background-color: white;
+    
+    box-shadow: 0px 3px 6px #0000004d;
+ border-radius: 20px;
+    padding: 10px;
+    height: 170px;
+    margin: auto;
+    margin-right: 100px;
+
+}
+.theme_1  section .colors span{
+    margin:auto;
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.theme_1  section .colors span.color1{
+    background: #5d3519;
+}
+
+.theme_1  section .colors span.color2{
+    background: #000000;
+}
+.theme_1  section .colors span.color3{
+    background: #D4656E;
+}
+
+.theme_1  section div{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.theme_1  section div span.title{
+    font-size: 48px;
+    font-family: 'beINNormal';
+
+}
+.theme_1  section div p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    width:320px;
+    font-family: 'beINNormal';
+    color:#B7B7B7;
+    padding-right: 28px;
+
+}
+.theme_1  section div span.price{
+    font-family: 'beINNormal';
+    font-size: 29px;
+    color:#686868;
+
+
+}
+.theme_1  section div button{
+    width: 204px;
+    height: 50px;
+    margin-top: 20px;
+    background-color:#263788;
+    border-radius: 20px;
+    border:0;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+  /* end theme_1 section */
+
+
+  @media only screen and (max-width:1200px){
+  .theme_1 section{
+width: 900px;
+  }
+}
+@media only screen and (max-width:1100px){
+    .theme_1 section{
+        width: 700px;
+          } 
+          .theme_1 section figure img{
+            
+    width: 200px;
+          }
+}
+
+@media only screen and (max-width:600px){
+   
+   
+.bar{
+    width: 100px;
+}
+    h1{
+        font-size: 30px;
+    }
+    .theme_1 section{
+        width: 340px;
+        column-gap: 20px;
+        height: 341px;
+        margin: 50px auto 0px auto;
+    }
+    .theme_1 section figure img{
+        width: 112px;
+    }
+    .theme_1 section div span.title{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .theme_1 section div p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .theme_1 section div span.price{
+        font-size: 18px;
+    }
+    .theme_1 section div button {
+    width: 102px;
+    font-size: 18px;
+    }
+    .theme_1 section .colors{
+        width: 24px;
+        height: 120px;
+        padding: 7px;
+        row-gap: 1px;
+        top: 63px;
+    }
+    .theme_1 section .colors span{
+        width: 20px;
+    height: 21px;
+    }
+    
+}
+@media  only screen and (max-width:400px) {
+    .bar{
+        
+    margin-top: -29px;
+    }
+    .mobile-user{
+        display: flex !important;
+        column-gap:10px;
+      } 
+      .mobile-user .info span{
+        width: 100px;
+        font-size: 16px;
+      }
+      .mobile-user .info p{
+        width: 100px;
+        font-size: 12px;
+      }
+    
+    
+      .mobile-user figure img{
+        width: 121px;
+        height: 126px;
+        border: 10px solid #263788;
+        outline: 10px solid #9CA3C8;
+      }
+}

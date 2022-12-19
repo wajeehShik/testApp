@@ -1,0 +1,210 @@
+
+.header{width: 100%;
+    height: 391px;
+    background: #263788;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -234px;
+    border-bottom: 87px solid #9CA3C8;
+}
+.header span{
+    font-family: "beINNormal";
+    font-size: 48px;
+    color:white;
+    width: 120px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 40%;
+    width: 379px;
+}
+
+.index_2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-top: 60px;
+}
+
+.index_2 article{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.index_2 article section{
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #0000004d;
+}
+.index_2 article section .content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.index_2 article section figure {
+    position: relative;
+}
+.index_2 article section figure .colors{
+    position: absolute;
+    display: flex;
+    left: 36px;
+    top: 199px;
+    width: 38px;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 3px 6px #0000004d;
+ border-radius: 20px;
+    padding: 10px;
+    height: 150px;
+    margin: auto;
+    margin-right: 100px;
+}
+.index_2 article section figure .colors  span{
+    margin:auto;
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.index_2 article section figure span.color1{
+    background: #5d3519;
+}
+
+.index_2 article section figure span.color2{
+    background: #000000;
+}
+.index_2 article section figure span.color3{
+    background: #D4656E;
+}
+
+
+
+
+.index_2 article section .content div{
+    display: flex;
+    column-gap:90px
+}
+.index_2 article section .content div span.title{
+    font-size: 48px;
+    font-family: 'beINNormal';
+}
+.index_2 article section .content div span.price{
+    font-size: 23px;
+    font-family: 'beINNormal';
+    color:#686868;
+    padding-top: 30px;
+
+}
+.index_2 article section .content p{
+    font-size: 30px;
+    font-family: 'beINNormal';
+    color:#B7B7B7;
+    width: 340px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.index_2 article section .content button{
+    width: 180px;
+    height: 50px;
+    background-color: #263788;
+    border-radius: 20px;
+    border:0;
+    color:white;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+
+@media only screen and (max-width:1000px){
+    .index_2 article section{
+        width: 311px;
+    }
+    .index_2 article section img{
+        width: 311px;
+    }
+    .index_2 article section .content div span.title{
+        font-size: 24px;
+    }
+    .index_2 article section .content p{
+        font-size: 20px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .header span {
+right: 32%;
+    }
+    .index_2 article section{
+        width: 311px;
+    }
+    .index_2 article section img{
+        width: 311px;
+    }
+    .index_2 article section .content div span.title{
+        font-size: 24px;
+    }
+    .index_2 article section .content div span.price{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .index_2 article section .content p{
+        font-size: 13px;
+        width: 200px;
+    }.index_2 article section figure .colors{
+        top:97px;
+        width: 24px;
+        height: 107px;
+        row-gap: 10px;
+        left: 18px;
+    }
+    .index_2 article section figure .colors span{
+        width: 27px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .header span{
+        font-size: 28px;
+        right: 13%;
+    }
+    .index_2 article section{
+        width: 150px;
+    }
+    .index_2 article section img{
+        width: 150px;
+    }
+    .index_2 article section figure .colors{
+        width: 10px;
+        top: 28px;
+    height: 65px;
+    }
+    .index_2 article section figure .colors span{
+        width: 16px;
+    }
+    .index_2 article section .content div{
+        column-gap: 10px;
+    }
+    .index_2 article section .content div span.title {
+    font-size: 17px;
+    }
+    .index_2 article section .content div span.price{
+        font-size: 13px;
+    }
+    .index_2 article section .content p {
+        font-size: 11px;
+        width: 129px;
+    }
+    .index_2 article section .content button {
+        width: 50px;
+    height: 30px;
+    
+    font-size: 11px;
+    }
+} 

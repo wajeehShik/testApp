@@ -1,0 +1,200 @@
+.spah1{
+    position:absolute;
+    width: 230px;
+    background-color:#27398B;
+    height: 257px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+
+}
+.spah2{
+    position:absolute;
+    width: 330px;
+    background-color:#D8DEFD;
+    height: 300px;
+    left: 30px;
+    top: 0;
+
+}
+
+
+.theme2_1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+}
+.theme2_1>span{
+font-size: 58px;
+margin-bottom: 70px;
+font-family: 'beINNormal';
+    margin-right: 270px;
+    color:#263788;
+}
+.theme2_1 section
+{
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 143px;
+    display: flex;
+}
+
+.theme2_1 article{
+    align-items: flex-start;
+    justify-content: center;
+
+    column-gap: 200px;
+    display: flex;
+
+}
+.theme2_1 section div,
+.theme2_1 article>div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center;
+    align-items:center; */
+}
+.theme2_1 section div .title,
+.theme2_1 article>div .title{
+    font-size: 60px;
+    font-family: 'beINNormal';
+}
+.theme2_1 section div p{
+    font-size: 42px;
+    color:#B7B7B7;
+    width: 400px;
+}
+.theme2_1 article>div p{
+    font-size: 42px;
+    color:#B7B7B7;
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+.theme2_1 section div button,
+.theme2_1 article div button{
+    width: 174px;
+    height: 50px;
+    background:#263788;
+    border:0;
+    color:white;
+    font-size: 28px;
+}
+.theme2_1 section div span.price{
+    margin-top: 36px;
+    font-size: 24px;
+    align-self: flex-end;
+    color: #686868;
+}
+.theme2_1 article div div{
+    display: flex;
+    column-gap: 97px;
+}
+.theme2_1 article div div span.price{
+    font-size: 30px;
+    color:#686868;
+    top:10px;
+}
+
+figure {
+position: relative;
+}
+figure .colors{
+    position: absolute;
+    display: flex;
+    right: -70px;
+    top: 23px;
+    width: 38px;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #707070;
+ border-radius: 20px;
+    padding: 10px;
+    height: 150px;
+    margin: auto;
+    margin-right: 100px;
+} figure .colors  span{
+    margin:auto;
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+}
+figure  .colors span.color1{
+    background: #5d3519;
+}
+
+figure  .colors  span.color2{
+    background: #000000;
+}
+figure  .colors span.color3{
+    background: #D4656E;
+}
+
+
+
+@media only screen and (max-width:1100px){
+    .theme2_1 section figure img,
+    .theme2_1 article figure img{
+    width: 511px;
+    height: 666px;
+}
+.theme2_1 section,
+.theme2_1 article{
+    column-gap:40px
+}.theme2_1 article{
+    column-gap: 100px;
+}
+.theme2_1 article>div{
+    margin-right: 38px;
+}
+/* .theme2_1 article figure img{
+    margin-right: 152px;
+} */
+}
+@media only screen and (max-width:1100px){
+    .theme2_1 section figure img,
+    .theme2_1 article figure img{
+    width: 311px;
+    height: 466px;
+}
+}
+@media only screen and (max-width:800px){
+    .theme2_1 section figure img,
+    .theme2_1 article figure img{
+    width: 247px;
+    height: 426px;
+}.theme2_1 section div .title, .theme2_1 article>div .title{
+   margin-top: 10px;
+    font-size: 30px;
+}
+.theme2_1 article>div p,
+.theme2_1 section div p{
+    font-size: 20px;
+    width:100px;
+}
+.theme2_1 section div button, .theme2_1 article div button{
+    width: 100px;
+    font-size: 20px;
+}
+.theme2_1 section div span.price,
+.theme2_1 article div div span.price{
+    font-size: 20px;
+}
+.theme2_1 article{
+    column-gap:1px
+}
+}
+@media only screen and (max-width:510px){
+    .theme2_1 section figure img,
+    .theme2_1 article figure img{
+    width:147px;
+    height: 426px;
+}.theme2_1 section div .title, .theme2_1 article>div .title{
+   margin-top: 10px;
+    font-size: 30px;
+}
+}
